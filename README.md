@@ -16,7 +16,6 @@ import real estate dealing prices in excel to mysql
 
 # 부동산 실거래가 정보 구조
 
-부동산  실거래 데이터 헤더정보 
 | 논리명 | 물리명 | 타입(길이) |
 |--|--|--|
 |시군구	|				Sigungu	|		VARCHAR2(100)|
