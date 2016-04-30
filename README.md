@@ -16,19 +16,18 @@ import real estate dealing prices in excel to mysql
 
 # 부동산 실거래가 정보 구조
 
-| 논리명 | 물리명 | 타입(길이) |
+| 논리명 | 물리명 | 타입(길이) 
 |--|--|--|
-|시군구	|				Sigungu	|		VARCHAR2(100)|
-|본번		|			MainNo		|	NUMBER|
-|부번		|			SubNo		|	NUMBER|
-|단지명	|				DanjiName	|	VARCHAR2(100)|
-|전용면적(m2)	|		RealSize	|	NUMBER|
-|계약일			|		ContractDate|	DATE|
-|거래금액(만원)	|		ContractMoney	|NUMBER|
-|층			|			Story	|		NUMBER|
-|건축년도|				ConstructYear |  NUMBER|
-|도로명주소	|			Address|			VARCHAR2(200)|
-
+|시군구	|				Sigungu	|		VARCHAR2(100)
+|본번		|			MainNo		|	NUMBER
+|부번		|			SubNo		|	NUMBER
+|단지명	|				DanjiName	|	VARCHAR2(100)
+|전용면적(m2)	|		RealSize	|	NUMBER
+|계약일			|		ContractDate|	DATE
+|거래금액(만원)	|		ContractMoney	|NUMBER
+|층			|			Story	|		NUMBER
+|건축년도|				ConstructYear |  NUMBER
+|도로명주소	|			Address|			VARCHAR2(200)
 
 # table create script (sql)
 
