@@ -30,7 +30,7 @@ import real estate dealing prices in excel to mysql
 |도로명주소	|			Address|			VARCHAR2(200)
 
 # table create script (sql)
-
+```
 create table realty (
 Sigungu			VARCHAR2(100),
 MainNo			NUMBER,
@@ -43,3 +43,4 @@ Story			NUMBER,
 ConstructYear   NUMBER,
 Address			VARCHAR2(200)
 )
+```
