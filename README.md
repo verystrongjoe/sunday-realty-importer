@@ -18,29 +18,29 @@ import real estate dealing prices in excel to mysql
 
 | 논리명 | 물리명 | 타입(길이) |
 |----|----|-----|
-|시군구	|				Sigungu	|		VARCHAR2(100) |
-|본번		|			MainNo		|	NUMBER |
-|부번		|			SubNo		|	NUMBER |
-|단지명	|				DanjiName	|	VARCHAR2(100) |
-|전용면적(m2)	|		RealSize	|	NUMBER |
+|시군구	|				Sigungu	|		VARCHAR(100) |
+|본번		|			MainNo		|	INT |
+|부번		|			SubNo		|	INT |
+|단지명	|				DanjiName	|	VARCHAR(100) |
+|전용면적(m2)	|		RealSize	|	INT |
 |계약일			|		ContractDate|	DATE |
-|거래금액(만원)	|		ContractMoney	| NUMBER |
-|층			|			Story	|		NUMBER |
-|건축년도|				ConstructYear |  NUMBER |
-|도로명주소	|			Address|			VARCHAR2(200)
+|거래금액(만원)	|		ContractMoney	| INT |
+|층			|			Story	|		INT |
+|건축년도|				ConstructYear |  INT |
+|도로명주소	|			Address|			VARCHAR(200)
 
 # table create script (sql)
 ```
 create table realty (
-Sigungu			VARCHAR2(100),
-MainNo			NUMBER,
-SubNo			NUMBER,
-DanjiName		VARCHAR2(100),
-RealSize		NUMBER,
-ContractDate	DATE,
-ContractMoney	NUMBER,
-Story			NUMBER,
-ConstructYear   NUMBER,
-Address			VARCHAR2(200)
+Sigungu         VARCHAR(100),
+MainNo          INT,
+SubNo           INT,
+DanjiName       VARCHAR(100),
+RealSize        INT,
+ContractDate    DATE,
+ContractMoney   INT,
+Story           INT,
+ConstructYear   INT,
+Address         VARCHAR(200)
 )
 ```
